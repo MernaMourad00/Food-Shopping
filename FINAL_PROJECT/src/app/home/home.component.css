@@ -1,0 +1,36 @@
+.section1 {
+
+  background-image: url('pic.jpg');
+
+
+}
+
+.sec2 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding-top: 15%;
+  padding-bottom: 25%;
+}
+
+.div2 {
+  background-image: url('section2.jpg');
+  float: left;
+}
+
+.div3 {
+  background-color: rgb(255, 254, 252);
+  color: goldenrod;
+  float: center;
+  padding-left: 50%;
+  padding-top: 13%;
+}
+.sec100{
+ height: 600px;
+}
+.imagesec2{
+  height: 600px;
+}
+h5{
+  font-size: 30px;
+}

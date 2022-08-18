@@ -1,0 +1,16 @@
+.gradient-custom {
+  /* background-image: url('back2.jpg'); */
+  background-color: black;
+  padding-bottom: 500px;
+}
+.px-3{
+  height: 40px;
+}
+.card{
+  background-color: rgb(48, 50, 47);
+  color: whitesmoke;
+}
+.list-group-item{
+  background-color:rgb(48, 50, 47);
+    color: whitesmoke;
+}

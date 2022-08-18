@@ -1,0 +1,32 @@
+.ALL{
+
+
+  padding-top: 10px;
+ padding-bottom: 200px;
+ background-image: url('back2.jpg');
+
+
+}
+.BOX{
+  width: 90%;
+    margin: 100px auto;
+background-color: black;
+
+}
+h2{
+font-size: 35px;
+  margin: 20px 10px;
+  color: rgb(210, 178, 18);
+
+}
+
+h3{
+  font-size: 30px;
+  margin: 20px 10px;
+  color: whitesmoke;
+}
+img{
+  width: 100%;
+  max-height: 500px;
+  min-height: 500px;
+}

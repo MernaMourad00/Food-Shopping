@@ -1,0 +1,20 @@
+.header {
+
+  height: 100%;
+}
+
+.bg-img {
+
+  background-image: url("picc.jpg");
+  height: 100%;
+}
+
+h1 {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}

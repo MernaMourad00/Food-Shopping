@@ -1,0 +1,56 @@
+<div class="bg-img">
+  <img class="img-responsive" width="100%" />
+  <div class="header">
+    <div>
+      <div id="comp-k92uhd5s" class="_1Q9if _3bcaz" data-testid="richTextElement">
+        <h1 class="font_0" style="line-height:1.1em; text-align:center; font-size:60px;"><span class="color_15">Fresh
+            Food,<br>
+            At Your Door</span></h1>
+      </div>
+    </div>
+  </div>
+  <form class="container py-5 h-100" [formGroup]="Signupform" (ngSubmit)="SubmitForm()">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+
+            <h2 class="mb-5">Sign Up</h2>
+
+            <div class="form-outline mb-4">
+              <label class="form-label" for="typePasswordX-2">UserName</label>
+              <input type="text" class="form-control form-control-lg" formControlName="username" required />
+              <span style="color:red" ng-show="myForm.name.$dirty && myForm.name.$invalid">
+                <span ng-show="myForm.name.$error.required">UserName is required.</span>
+              </span>
+            </div>
+            <div class="form-outline mb-4">
+              <label class="form-label" for="typeEmailX-2">Email</label>
+              <input type="email" class="form-control form-control-lg" formControlName="email" required />
+              <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+                <span ng-show="myForm.email.$error.required">Email is required.</span>
+              </span>
+
+            </div>
+            <div class="form-outline mb-4">
+              <label class="form-label" for="typePasswordX-2">Password</label>
+              <input type="password" class="form-control form-control-lg" formControlName="password" required />
+              <span style="color:red" ng-show="myForm.password.$dirty && myForm.password.$invalid">
+                <span ng-show="myForm.password.$error.required">Password is required.</span>
+              </span>
+
+            </div>
+
+
+            <button class="btn btn-lg btn-block btn-primary" routerLink="/login" style="background-color: #15a12a;"
+              type="submit"><i class="fab fa-google me-2"></i> Submit</button>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- Section: Design Block -->
